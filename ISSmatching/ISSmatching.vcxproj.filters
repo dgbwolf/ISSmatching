@@ -1,0 +1,3210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\2d\convolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\2d\edge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\2d\impl\convolution.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\2d\impl\edge.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\2d\impl\morphology.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\2d\kernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\2d\morphology.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\cloud_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\angles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\bivariate_polynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\centroid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\common_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\concatenate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\copy_point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\distances.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\eigen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\feature_histogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\fft\kiss_fft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\fft\kiss_fftr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\fft\_kiss_fft_guts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\file_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\gaussian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\generate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\accumulators.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\angles.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\bivariate_polynomial.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\centroid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\copy_point.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\eigen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\file_io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\gaussian.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\generate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\intensity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\intersections.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\norms.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\pca.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\piecewise_linear_function.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\polynomial_calculations.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\projection_matrix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\random.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\spring.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\transformation_from_correspondences.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\transforms.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\impl\vector_average.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\intensity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\intersections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\norms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\pca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\piecewise_linear_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\point_operators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\point_tests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\polynomial_calculations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\poses_from_matches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\projection_matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\spring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\synchronizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\time_trigger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\transformation_from_correspondences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\transforms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\common\vector_average.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\compression\color_coding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\compression\compression_profiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\compression\entropy_range_coder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\compression\octree_pointcloud_compression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\compression\point_coding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\console\parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\console\print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\console\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\conversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\correspondence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\3dsc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\boundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\brisk_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\cppf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\crh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\cvfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\don.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\eigen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\esf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\fpfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\fpfh_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\from_meshes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\gfpfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\grsd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\3dsc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\board.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\boundary.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\brisk_2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\cppf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\crh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\cvfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\don.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\esf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\feature.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\fpfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\fpfh_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\gfpfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\grsd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\integral_image2D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\integral_image_normal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\intensity_gradient.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\intensity_spin.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\linear_least_squares_normal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\moment_invariants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\moment_of_inertia_estimation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\multiscale_feature_persistence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\narf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\normal_3d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\normal_3d_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\normal_based_signature.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\organized_edge_detection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\our_cvfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\pfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\pfhrgb.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\ppf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\ppfrgb.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\principal_curvatures.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\range_image_border_extractor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\rift.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\rops_estimation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\rsd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\shot.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\shot_lrf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\shot_lrf_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\shot_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\spin_image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\statistical_multiscale_interest_region_extraction.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\usc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\impl\vfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\integral_image2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\integral_image_normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\intensity_gradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\intensity_spin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\linear_least_squares_normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\moment_invariants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\moment_of_inertia_estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\multiscale_feature_persistence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\narf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\narf_descriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\normal_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\normal_3d_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\normal_based_signature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\organized_edge_detection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\our_cvfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\pfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\pfhrgb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\pfh_tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\ppf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\ppfrgb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\principal_curvatures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\range_image_border_extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\rift.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\rops_estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\rsd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\shot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\shot_lrf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\shot_lrf_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\shot_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\spin_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\statistical_multiscale_interest_region_extraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\usc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\features\vfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\approximate_voxel_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\bilateral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\box_clipper3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\clipper3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\conditional_removal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\convolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\convolution_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\covariance_sampling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\crop_box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\crop_hull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\extract_indices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\fast_bilateral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\fast_bilateral_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\filter_indices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\frustum_culling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\grid_minimum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\approximate_voxel_grid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\bilateral.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\box_clipper3D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\conditional_removal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\convolution.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\convolution_3d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\covariance_sampling.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\crop_box.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\crop_hull.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\extract_indices.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\fast_bilateral.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\fast_bilateral_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\filter_indices.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\frustum_culling.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\grid_minimum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\local_maximum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\median_filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\model_outlier_removal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\morphological_filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\normal_refinement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\normal_space.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\passthrough.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\plane_clipper3D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\project_inliers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\radius_outlier_removal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\random_sample.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\sampling_surface_normal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\shadowpoints.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\statistical_outlier_removal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\uniform_sampling.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\voxel_grid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\voxel_grid_covariance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\impl\voxel_grid_occlusion_estimation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\local_maximum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\median_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\model_outlier_removal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\morphological_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\normal_refinement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\normal_space.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\passthrough.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\plane_clipper3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\project_inliers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\radius_outlier_removal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\random_sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\sampling_surface_normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\shadowpoints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\statistical_outlier_removal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\uniform_sampling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\voxel_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\voxel_grid_covariance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\voxel_grid_label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\filters\voxel_grid_occlusion_estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\for_each_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\eigen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\get_boundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\impl\polygon_operations.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\line_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\mesh_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\mesh_circulators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\mesh_conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\mesh_elements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\mesh_indices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\mesh_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\mesh_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\organized_index_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\planar_polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\polygon_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\polygon_operations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\quad_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\geometry\triangle_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\impl\cloud_iterator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\impl\instantiate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\impl\pcl_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\impl\point_types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\ascii_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\auto_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\debayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\eigen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\file_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\file_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\hdl_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\ifs_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\image_depth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\image_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\image_ir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\image_metadata_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\image_rgb24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\image_yuv422.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\impl\auto_io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\impl\entropy_range_coder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\impl\lzf_image_io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\impl\octree_pointcloud_compression.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\impl\pcd_io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\impl\point_cloud_image_extractors.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\impl\synchronized_queue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\impl\vtk_lib_io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\io_exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\lzf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\lzf_image_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\obj_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\openni2\openni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\openni2\openni2_convert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\openni2\openni2_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\openni2\openni2_device_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\openni2\openni2_device_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\openni2\openni2_frame_listener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\openni2\openni2_metadata_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\openni2\openni2_timer_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\openni2\openni2_video_mode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\openni2_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\pcd_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\pcd_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\ply\byte_order.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\ply\io_operators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\ply\ply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\ply\ply_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\ply_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\png_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\point_cloud_image_extractors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\pxc_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\robot_eye_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\tar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\vlp_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\vtk_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\io\vtk_lib_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\kdtree\flann.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\kdtree\impl\io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\kdtree\impl\kdtree_flann.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\kdtree\io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\kdtree\kdtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\kdtree\kdtree_flann.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\agast_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\brisk_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\harris_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\harris_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\harris_6d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\impl\agast_2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\impl\brisk_2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\impl\harris_2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\impl\harris_3d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\impl\harris_6d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\impl\iss_3d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\impl\keypoint.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\impl\sift_keypoint.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\impl\smoothed_surfaces_keypoint.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\impl\susan.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\iss_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\keypoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\narf_keypoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\sift_keypoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\smoothed_surfaces_keypoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\susan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\keypoints\uniform_sampling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\branch_estimator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\decision_forest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\decision_forest_evaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\decision_forest_trainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\decision_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\decision_tree_data_provider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\decision_tree_evaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\decision_tree_trainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\densecrf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\feature_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\fern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\fern_evaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\fern_trainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\kmeans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\multiple_data_2d_example_index.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\multi_channel_2d_comparison_feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\multi_channel_2d_comparison_feature_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\multi_channel_2d_data_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\pairwise_potential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\permutohedral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\point_xy_32f.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\point_xy_32i.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\regression_variance_stats_estimator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\stats_estimator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\svm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ml\svm_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ModelCoefficients.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\impl\octree2buf_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\impl\octree_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\impl\octree_iterator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\impl\octree_pointcloud.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\impl\octree_pointcloud_adjacency.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\impl\octree_pointcloud_voxelcentroid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\impl\octree_search.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree2buf_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_key.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_nodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_pointcloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_pointcloud_adjacency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_pointcloud_adjacency_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_pointcloud_changedetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_pointcloud_density.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_pointcloud_occupancy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_pointcloud_pointvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_pointcloud_singlepoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_pointcloud_voxelcentroid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\octree\octree_search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\cJSON.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\impl\lru_cache.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\impl\monitor_queue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\impl\octree_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\impl\octree_base_node.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\impl\octree_disk_container.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\impl\octree_ram_container.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\impl\outofcore_breadth_first_iterator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\impl\outofcore_depth_first_iterator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\octree_abstract_node_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\octree_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\octree_base_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\octree_disk_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\octree_ram_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\outofcore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\outofcore_base_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\outofcore_breadth_first_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\outofcore_depth_first_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\outofcore_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\outofcore_iterator_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\outofcore_node_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\visualization\axes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\visualization\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\visualization\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\visualization\geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\visualization\grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\visualization\object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\visualization\outofcore_cloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\visualization\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\outofcore\visualization\viewport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\PCLHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\PCLImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\PCLPointCloud2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\PCLPointField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\pcl_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\pcl_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\pcl_exports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\pcl_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\pcl_tests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\people\ground_based_people_detection_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\people\head_based_subcluster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\people\height_map_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\people\hog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\people\impl\ground_based_people_detection_app.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\people\impl\head_based_subcluster.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\people\impl\height_map_2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\people\impl\person_classifier.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\people\impl\person_cluster.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\people\person_classifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\people\person_cluster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\PointIndices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\point_cloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\point_representation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\point_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\point_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\point_types_conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\PolygonMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\range_image\bearing_angle_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\range_image\impl\range_image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\range_image\impl\range_image_planar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\range_image\impl\range_image_spherical.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\range_image\range_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\range_image\range_image_planar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\range_image\range_image_spherical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\3rdparty\metslib\abstract-search.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\3rdparty\metslib\local-search.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\3rdparty\metslib\mets.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\3rdparty\metslib\metslib_config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\3rdparty\metslib\model.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\3rdparty\metslib\observer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\3rdparty\metslib\simulated-annealing.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\3rdparty\metslib\tabu-search.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\3rdparty\metslib\termination-criteria.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\auxiliary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\bvh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\cg\correspondence_grouping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\cg\geometric_consistency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\cg\hough_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\color_gradient_dot_modality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\color_gradient_modality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\color_modality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\crh_alignment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\dense_quantized_multi_mod_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\distance_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\dotmod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\dot_modality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\face_detection\face_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\face_detection\face_detector_data_provider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\face_detection\rf_face_detector_trainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\face_detection\rf_face_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\hv\greedy_verification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\hv\hv_go.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\hv\hv_papazov.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\hv\hypotheses_verification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\hv\occlusion_reasoning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\hypothesis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\cg\correspondence_grouping.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\cg\geometric_consistency.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\cg\hough_3d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\hv\greedy_verification.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\hv\hv_go.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\hv\hv_papazov.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\hv\occlusion_reasoning.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\implicit_shape_model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\linemod\line_rgbd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\line_rgbd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\ransac_based\simple_octree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\ransac_based\voxel_structure.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\simple_octree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\impl\voxel_structure.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\implicit_shape_model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\linemod\line_rgbd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\linemod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\line_rgbd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\mask_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\model_library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\obj_rec_ransac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\orr_graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\orr_octree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\orr_octree_zprojection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\point_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\quantizable_modality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\quantized_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\auxiliary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\bvh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\hypothesis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\model_library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\obj_rec_ransac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\orr_graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\orr_octree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\orr_octree_zprojection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\rigid_transform_space.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\simple_octree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\trimmed_icp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\ransac_based\voxel_structure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\region_xy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\rigid_transform_space.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\simple_octree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\sparse_quantized_multi_mod_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\surface_normal_modality.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\trimmed_icp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\recognition\voxel_structure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\register_point_struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\bfgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\boost_graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\convergence_criteria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_estimation_backprojection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_estimation_normal_shooting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_estimation_organized_projection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection_distance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection_features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection_median_distance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection_one_to_one.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection_organized_boundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection_poly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection_sample_consensus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection_sample_consensus_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection_surface_normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection_trimmed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_rejection_var_trimmed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_sorting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\correspondence_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\default_convergence_criteria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\distances.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\eigen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\elch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\gicp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\gicp6d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\ia_fpcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\ia_kfpcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\ia_ransac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\icp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\icp_nl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_estimation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_estimation_backprojection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_estimation_normal_shooting.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_estimation_organized_projection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection_distance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection_features.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection_median_distance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection_one_to_one.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection_organized_boundary.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection_poly.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection_sample_consensus.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection_sample_consensus_2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection_surface_normal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection_trimmed.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_rejection_var_trimmed.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\correspondence_types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\default_convergence_criteria.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\elch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\gicp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\ia_fpcs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\ia_kfpcs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\ia_ransac.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\icp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\icp_nl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\incremental_registration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\joint_icp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\lum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\meta_registration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\ndt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\ndt_2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\ppf_registration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\pyramid_feature_matching.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\registration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\sample_consensus_prerejective.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\transformation_estimation_2D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\transformation_estimation_3point.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\transformation_estimation_dual_quaternion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\transformation_estimation_lm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\transformation_estimation_point_to_plane_lls.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\transformation_estimation_point_to_plane_lls_weighted.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\transformation_estimation_point_to_plane_weighted.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\transformation_estimation_svd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\transformation_estimation_svd_scale.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\impl\transformation_validation_euclidean.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\incremental_registration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\joint_icp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\lum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\matching_candidate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\meta_registration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\ndt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\ndt_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\pairwise_graph_registration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\ppf_registration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\pyramid_feature_matching.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\registration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\sample_consensus_prerejective.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_estimation_2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_estimation_3point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_estimation_dual_quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_estimation_lm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_estimation_point_to_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_estimation_point_to_plane_lls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_estimation_point_to_plane_lls_weighted.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_estimation_point_to_plane_weighted.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_estimation_svd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_estimation_svd_scale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_validation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transformation_validation_euclidean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\transforms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\warp_point_rigid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\warp_point_rigid_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\registration\warp_point_rigid_6d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ros\conversions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\ros\register_point_struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\eigen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\lmeds.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\mlesac.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\msac.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\prosac.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\ransac.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\rmsac.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\rransac.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_circle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_circle3d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_cone.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_cylinder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_line.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_normal_parallel_plane.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_normal_plane.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_normal_sphere.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_parallel_line.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_parallel_plane.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_perpendicular_plane.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_plane.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_registration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_registration_2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_sphere.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\impl\sac_model_stick.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\lmeds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\method_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\mlesac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\model_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\msac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\prosac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\ransac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\rmsac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\rransac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_circle3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_cone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_normal_parallel_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_normal_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_normal_sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_parallel_line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_parallel_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_perpendicular_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_registration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_registration_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sample_consensus\sac_model_stick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\brute_force.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\flann_search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\impl\brute_force.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\impl\flann_search.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\impl\kdtree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\impl\organized.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\impl\search.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\kdtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\octree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\organized.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\pcl_search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\search\search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\approximate_progressive_morphological_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\comparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\conditional_euclidean_clustering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\cpc_segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\crf_normal_segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\crf_segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\edge_aware_plane_comparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\euclidean_cluster_comparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\euclidean_plane_coefficient_comparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\extract_clusters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\extract_labeled_clusters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\extract_polygonal_prism_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\grabcut_segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\ground_plane_comparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\approximate_progressive_morphological_filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\conditional_euclidean_clustering.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\cpc_segmentation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\crf_normal_segmentation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\crf_segmentation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\extract_clusters.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\extract_labeled_clusters.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\extract_polygonal_prism_data.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\grabcut_segmentation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\lccp_segmentation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\min_cut_segmentation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\organized_connected_component_segmentation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\organized_multi_plane_segmentation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\planar_polygon_fusion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\progressive_morphological_filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\random_walker.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\region_growing.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\region_growing_rgb.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\sac_segmentation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\seeded_hue_segmentation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\segment_differences.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\supervoxel_clustering.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\impl\unary_classifier.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\lccp_segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\min_cut_segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\organized_connected_component_segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\organized_multi_plane_segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\planar_polygon_fusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\planar_region.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\plane_coefficient_comparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\plane_refinement_comparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\progressive_morphological_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\random_walker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\region_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\region_growing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\region_growing_rgb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\rgb_plane_coefficient_comparator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\sac_segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\seeded_hue_segmentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\segment_differences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\supervoxel_clustering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\segmentation\unary_classifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\sse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\stereo\digital_elevation_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\stereo\disparity_map_converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\stereo\impl\disparity_map_converter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\stereo\stereo_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\stereo\stereo_matching.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_3dm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_3dm_attributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_3dm_properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_3dm_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_annotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_annotation2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_arc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_arccurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_archive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_array_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_base32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_beam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_bezier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_bounding_box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_brep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_compress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_cone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_curve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_curveonsurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_curveproxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_detail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_dimstyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_dll_resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_ellipse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_evaluate_nurbs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_extensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_fpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_fsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_fsp_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_hatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_hsort_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_instance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_intersect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_knot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_linecurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_linestyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_linetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_lookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_mapchan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_nurbscurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_nurbssurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_object_history.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_objref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_offsetsurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_optimize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_planesurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_pluginlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_pointcloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_pointgeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_pointgrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_polycurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_polyedgecurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_polyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_polylinecurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_qsort_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_rendering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_revsurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_rtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_sumsurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_surfaceproxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_textlog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_texture_mapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_torus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_unicode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_userdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_uuid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_viewport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_workspace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_xform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\opennurbs_zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\opennurbs\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\binary_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\bspline_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\bspline_data.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\factor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\function_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\function_data.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\geometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\marching_cubes_poisson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\mat.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\multi_grid_octree_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\multi_grid_octree_data.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\octree_poisson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\octree_poisson.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\polynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\polynomial.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\ppolynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\ppolynomial.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\sparse_matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\sparse_matrix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\3rdparty\poisson4\vector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\bilateral_upsampling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\concave_hull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\convex_hull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\ear_clipping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\eigen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\gp3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\grid_projection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\bilateral_upsampling.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\concave_hull.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\convex_hull.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\gp3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\grid_projection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\marching_cubes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\marching_cubes_hoppe.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\marching_cubes_rbf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\mls.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\organized_fast_mesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\poisson.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\processing.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\reconstruction.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\surfel_smoothing.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\impl\texture_mapping.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\marching_cubes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\marching_cubes_hoppe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\marching_cubes_rbf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\mls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\closing_boundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_curve_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_curve_2d_apdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_curve_2d_asdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_curve_2d_atdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_curve_2d_pdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_curve_2d_sdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_curve_2d_tdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_curve_pdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_cylinder_pdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_sphere_pdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_surface_im.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_surface_pdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\fitting_surface_tdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\global_optimization_pdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\global_optimization_tdm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\nurbs_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\nurbs_solve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\nurbs_tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\sequential_fitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\sparse_mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\on_nurbs\triangulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\organized_fast_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\poisson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\processing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\qhull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\reconstruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\simplification_remove_unused_vertices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\surfel_smoothing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\texture_mapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\vtk_smoothing\vtk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\vtk_smoothing\vtk_mesh_quadric_decimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\vtk_smoothing\vtk_mesh_smoothing_laplacian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\vtk_smoothing\vtk_mesh_smoothing_windowed_sinc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\vtk_smoothing\vtk_mesh_subdivision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\surface\vtk_smoothing\vtk_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\TextureMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\approx_nearest_pair_point_cloud_coherence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\coherence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\distance_coherence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\hsv_color_coherence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\approx_nearest_pair_point_cloud_coherence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\coherence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\distance_coherence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\hsv_color_coherence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\kld_adaptive_particle_filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\kld_adaptive_particle_filter_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\nearest_pair_point_cloud_coherence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\normal_coherence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\particle_filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\particle_filter_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\pyramidal_klt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\tracker.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\impl\tracking.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\kld_adaptive_particle_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\kld_adaptive_particle_filter_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\nearest_pair_point_cloud_coherence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\normal_coherence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\particle_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\particle_filter_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\pyramidal_klt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\tracking\tracking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\Vertices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\area_picking_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\cloud_viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\common\actor_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\common\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\common\float_image_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\common\impl\common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\common\impl\shapes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\common\io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\common\ren_win_interact_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\common\shapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\eigen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\histogram_visualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\image_viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\impl\histogram_visualizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\impl\image_viewer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\impl\pcl_plotter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\impl\pcl_visualizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\impl\point_cloud_color_handlers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\impl\point_cloud_geometry_handlers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\impl\point_cloud_handlers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\impl\registration_visualizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\interactor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\interactor_style.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\keyboard_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\mouse_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\pcl_painter2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\pcl_plotter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\pcl_visualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\point_cloud_color_handlers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\point_cloud_geometry_handlers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\point_cloud_handlers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\point_picking_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\range_image_visualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\registration_visualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\simple_buffer_visualizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\vtk\pcl_context_item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\vtk\pcl_image_canvas_source_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\vtk\vtkRenderWindowInteractorFix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\vtk\vtkVertexBufferObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\vtk\vtkVertexBufferObjectMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\vtk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\3rdParty\VTK\lib\vtkalglib-7.0-gd.lib" />
+  </ItemGroup>
+</Project>
