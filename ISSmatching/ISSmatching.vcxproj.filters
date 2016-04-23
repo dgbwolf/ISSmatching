@@ -18,6 +18,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="keypointextraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="descritporcomputation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object_extraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\2d\convolution.h">
@@ -3202,6 +3214,18 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\window.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keypointextraction.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="descriptorcomputation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="object_extraction.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

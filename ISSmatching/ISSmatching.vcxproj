@@ -107,6 +107,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,7 +153,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="descritporcomputation.cpp" />
+    <ClCompile Include="keypointextraction.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="object_extraction.cpp" />
+    <ClCompile Include="rendering.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\2d\convolution.h" />
@@ -1216,6 +1221,10 @@
     <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\vtk\vtkVertexBufferObject.h" />
     <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\vtk\vtkVertexBufferObjectMapper.h" />
     <ClInclude Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\include\pcl-1.8\pcl\visualization\window.h" />
+    <ClInclude Include="descriptorcomputation.h" />
+    <ClInclude Include="object_extraction.h" />
+    <ClInclude Include="rendering.h" />
+    <ClInclude Include="keypointextraction.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\..\..\..\..\..\..\Program Files\PCL 1.8.0\3rdParty\VTK\lib\vtkalglib-7.0-gd.lib" />
